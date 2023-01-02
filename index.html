@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                
+            }
+        </style>
+        <title>Survey Form Project</title>
+        <body>
+            <h1>Survey Form</h1>
+            <P>Please Enter Correct Information</P>
+            <p>This form is for HTML Practice </p>
+            <form>
+                <fieldset>
+                    <legend>User Info</legend>
+                    <label for="Name">Enter Your Name:</label> 
+                    <input type="text" placeholder="Full Name" required></input>
+                    <br>
+                    <label for="email">Enter Your Email:</label> 
+                    <input type="email" placeholder="Email"  required></input>
+            <p>Enter The Date: <input type="Date" required></input></p>
+            <p>Have you followed Frontend Gyaan: 
+            <input type="radio" id="yes" name="followed" ><label for="Yes">Yes</label>
+            <input type="radio" id="No" name="followed" ><label for="No">No</label></p>
+        
+            <p>Which Web language do you know:
+             <input type="checkbox" id="html" name="fav_language1" value="HTML">
+             <label for="html">HTML</label>
+             <input type="checkbox" id="css" name="fav_language2" value="CSS">
+             <label for="css">CSS</label>
+             <input type="checkbox" id="javascript" name="fav_language3" value="JavaScript">
+             <label for="javascript">JavaScript</label>
+            </p>
+
+            <p>Please select your age:
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label> 
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label>
+            </p>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        </form>
+            
+
+
+        </body>
+    </head>
+</html>
